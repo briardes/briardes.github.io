@@ -1,0 +1,39 @@
+body
+{
+    margin:0;
+}
+/*Divs*/
+div#header
+{
+    position: absolute;
+    margin:0;
+    background-image: url('../images/black.png') ;
+    background-repeat:repeat;
+    height: 350px;
+    width: 100%;
+}
+
+div#container
+{
+    position: absolute;
+    margin-top: 350px;
+    height: 500px;
+    width: 100%;
+    background-color: #ff6e04;
+}
+
+div#image
+{
+    padding: 0;
+    position: relative;
+    z-index: 100;
+}
+/*Images*/
+
+img#ruby
+{
+    margin-right: 43%;
+    margin-left: 42%;
+    margin-top: 238px;
+    width: 15%;
+}
