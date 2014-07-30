@@ -13,6 +13,17 @@ div#header
     width: 100%;
 }
 
+div#name
+{
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 100px;
+    width: 40%;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
 div#container
 {
     position: absolute;
@@ -36,4 +47,17 @@ img#ruby
     margin-left: 42%;
     margin-top: 238px;
     width: 15%;
+}
+
+/*Text*/
+h1.first
+{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2.second
+{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
