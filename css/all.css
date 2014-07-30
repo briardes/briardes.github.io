@@ -7,19 +7,28 @@ div#header
 {
     position: absolute;
     margin:0;
-    background-image: url('../images/black.png') ;
-    background-repeat:repeat;
-    height: 350px;
+    background-image: url('../images/diamonds.png') ;
+    height: 150px;
     width: 100%;
+}
+
+div#ribbon
+{
+    background-image: url('../images/black.png');
+    margin-top: 145px;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 1001;
+    opacity: 0.8;
 }
 
 div#name
 {
-    margin-top: 100px;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin: 25px auto;
     height: 100px;
-    width: 30%;
+    width: 400px;
+    position: relative;
     background-color: lightgrey;
     border-radius: 25px;
 }
@@ -27,16 +36,17 @@ div#name
 div#container
 {
     position: absolute;
-    margin-top: 350px;
-    height: 500px;
+    margin-top: 150px;
+    height: 1500px;
     width: 100%;
-    background-color: #ff6e04;
+    background-image: url('../images/wood.png');
 }
 
 div#image
 {
+    margin: 247px auto;
     padding: 0;
-    position: relative;
+    position: absolute;
     z-index: 100;
 }
 /*Images*/
@@ -44,10 +54,7 @@ div#image
 img#ruby
 {
     vertical-align: middle;
-    margin-right: 43%;
-    margin-left: 42%;
-    margin-top: 238px;
-    width: 15%;
+    width: 200px;
 }
 
 /*Text*/
